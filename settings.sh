@@ -13,4 +13,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 wget https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 
-
+# MySQL 세팅
+apt-get install mysql-server -y
+# mysqladmin -u root -p password
+sudo service mysql restart
